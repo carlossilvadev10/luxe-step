@@ -1,6 +1,6 @@
 # LUXE-STEP 👟
 
-[![LUXE-STEP](./src/assets/image-preview.png)](https://luxe-step.netlify.app/)
+[![LUXE-STEP](./src/assets/image-preview.png)](https://luxe-step-inky.vercel.app/)
 
 Bienvenido a **LUXE-STEP**, tu destino para encontrar las zapatillas perfectas que combinan estilo, comodidad y rendimiento. Desde modelos clásicos hasta los últimos lanzamientos, ofrecemos una selección premium para quienes marcan tendencia y nunca dejan de moverse. ¡Descubre tu próximo par favorito!
 
