@@ -13,8 +13,8 @@ const Hero = () => {
 
     return (
         <section className = "max-padd-container xl:h-screen py-16 xl:py-32 max-xs:overflow-hidden" id = "home">
-            <div className = "flex flex-col xl:flex-row gap-6 relative top-16 sm:top-28 xl:top-20">
-                <motion.div variants = {fadeIn("left", 1)} initial = "hidden" whileInView = "show" viewport = {{ once: true, amount: 0.2 }} className = "flex flex-1 flex-col max-w-[680px]">
+            <div className = "flex flex-col xl:flex-row gap-6 relative top-16 sm:top-28 xl:top-20 items-center xl:items-start">
+                <motion.div variants = {fadeIn("left", 1)} initial = "hidden" whileInView = "show" viewport = {{ once: true, amount: 0.2 }} className = "flex flex-1 flex-col items-center xl:items-start text-center xl:text-left max-w-[680px]" >
                     <h4 className = "flex items-baseline gap-x-2 uppercase text-secondary medium-18">
                         Colección moderna <BsFire />
                     </h4>
@@ -28,7 +28,7 @@ const Hero = () => {
                         <Button type = "submit" title = "Explorar tienda" icon = {arrowRight} variant = "btn-secondary" />
                     </div>
                 </motion.div>
-                <motion.div initial = {{ scale: 0.2 }} whileInView = {{ scale: 1 }} transition = {{ type: "tween", stiffness: 260, damping: 20, duration: 1, ease: "easeInOut" }} viewport = {{ once: true, amount: 0.2 }} className = "flex flex-1 justify-center">
+                <motion.div initial = {{ scale: 0.2 }} whileInView = {{ scale: 1 }} transition = {{ type: "tween", stiffness: 260, damping: 20, duration: 1, ease: "easeInOut" }} viewport = {{ once: true, amount: 0.2 }} className = "flex flex-1 justify-center my-4 sm:mb-16 xl:my-4">
                     <img src = {shoeImg} alt = "shoeImg" className = "h-[20rem] xl:h-[27rem] w-auto drop-shadow-2xl" />
                 </motion.div>
             </div>
