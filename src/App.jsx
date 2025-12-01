@@ -7,6 +7,7 @@ import About from "./components/About";
 import Shop from "./components/Shop";
 import Subscription from "./components/Subscription";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -21,6 +22,7 @@ function App() {
       <Shop />
       <Subscription />
       <Footer />
+      <ScrollToTop />
     </div>
   )
 }
